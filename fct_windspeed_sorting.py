@@ -50,7 +50,7 @@ def get_array_of_dictionary_MEPS(meps_precip):
 # In[ ]:
 
 
-def get_precip_amount_for_wind_speed_Jenny(obs_precip_diff, obs_wind_dir, obs_west_idx, obs_east_idx, obs_wind_speed):
+def get_precip_amount_for_wind_speed(obs_precip_diff, obs_wind_dir, obs_west_idx, obs_east_idx, obs_wind_speed):
     
     west_WS_0_4 = dict()
     east_WS_0_4 = dict()
